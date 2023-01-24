@@ -7,6 +7,10 @@
       "jsx": "react-jsx",
       "allowJs": true,
       "moduleResolution": "node",
+      "baseUrl": ".",
+      "paths": {
+        "*":["./src/*"]
+      },
       "esModuleInterop": true,
       // для поддержки default import либами
       "allowSyntheticDefaultImports": true,
