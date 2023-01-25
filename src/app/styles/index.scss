@@ -1,7 +1,8 @@
-@import "reset.scss";
-@import "variables/global.scss";
-@import "themes/main.scss";
-@import "themes/dark.scss";
+@import "reset";
+@import "variables/global";
+@import "themes/normal";
+@import "themes/dark";
+
 .app {
     font: var(--font-m);
 
@@ -10,9 +11,9 @@
 
     min-height: 100vh;
 }
+
 .content-page {
     display: flex;
-
 }
 
 .page-wrapper {

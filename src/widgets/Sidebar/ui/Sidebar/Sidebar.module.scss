@@ -1,15 +1,14 @@
-.sidebar {
+.Sidebar {
     height: calc(100vh - var(--navbar-height));
     width: var(--sidebar-width);
-    background-color: var(--inverted-bg-color);
+    background: var(--inverted-bg-color);
 
     position: relative;
     transition: width 0.3s;
 }
 
 .collapsed {
-    width: 80px;
-    //#FIX width to translateX (таким образом браузеру будет легче делать анимации, ему не нужно будет пересчитывать расположение основного контента справа)
+    width: var(--sidebar-width-collapsed);
 }
 
 .switchers {
@@ -20,6 +19,6 @@
     width: 100%;
 }
 
-.lang{
+.lang {
     margin-left: 20px;
 }
